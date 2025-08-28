@@ -337,11 +337,11 @@ export default function Index() {
               <Mail />
               <span className="ml-2">choudhryvarun35@gmail.com</span>
             </Button>
-            <Button variant="outline" size="lg" className="border-slate-600 text-white hover:bg-slate-800" onClick={() => window.open('tel:+919818331816', '_blank')}>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={() => window.open('tel:+919818331816', '_blank')}>
               <Phone />
               <span className="ml-2">+91 9818331816</span>
             </Button>
-            <Button variant="outline" size="lg" className="border-slate-600 text-white hover:bg-slate-800" onClick={() => window.open('https://www.linkedin.com/in/varun1102/', '_blank')}>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={() => window.open('https://www.linkedin.com/in/varun1102/', '_blank')}>
               <Linkedin />
               <span className="ml-2">LinkedIn</span>
             </Button>
